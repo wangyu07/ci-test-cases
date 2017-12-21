@@ -1,0 +1,11 @@
+metadata:
+    name: vmall test
+    format: "Lava-Test-Shell Test Definition 1.0"
+    description: "vmall test"
+    maintainer:
+        - wy200885@163.com
+
+
+run:
+    steps:
+        - 'cd /root/vmall-input-V2.4; ./run.sh 1 10000 100 1"
